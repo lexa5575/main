@@ -23,3 +23,6 @@ Route::get('hello', function () {
         'name' => $name
         ]);
 });
+
+Route::get('/tasks', 'TasksController@submit');
+
